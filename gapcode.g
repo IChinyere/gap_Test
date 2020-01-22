@@ -12,6 +12,8 @@ end;
 
 
 
-
+double:=function(x)
+	return 2*x;
+end;
 
 
