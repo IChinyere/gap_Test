@@ -22,3 +22,6 @@ gap> double(-1);
 # You can also test error messages, for example
 #gap> double("a");
 #Error, The argument must be an integer
+
+gap> AvgOrd(SymmetricGroup(4));
+67/24
