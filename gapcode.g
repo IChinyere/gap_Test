@@ -1,4 +1,4 @@
-
+#Finding the average order of an element in a group G
 
 
 AvgOrd:=function ( G )
