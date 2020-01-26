@@ -16,7 +16,8 @@ double:=function(x)
 	return 2*x;
 end;
 
-#This code outputs a cyclic presentation P_n(w). It takes inputs the number of generators n and a list L of integers
+#This code outputs a cyclic presentation P_n(w). It takes inputs the number of generators n and a list L of lists [a,b] of integers;
+#a=subscripts and b=index of the corresponding generator in w.
 #For example L=[[1,1],[2,1],[3,1]] means that w=x_1*x_2*x_3. On the other hand L=[[1,1],[2,1],[3,-1]] means that w=x_1*x_2*x_3^-1.
 CycPresGroup:=function(n,L)
      local rels,j,g,x,w,F;

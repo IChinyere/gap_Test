@@ -28,7 +28,7 @@ gap> AvgOrd(SymmetricGroup(4));
 67/24
 
 #This gap code gives the cyclic presentation P_n(w). It takes as inputs that number of generators n and a
-#list L consisting of integers z between 1 and n which tracks the subscript and index of the corresponding generator in w
+#list L consisting of lists [a,b] of integers where a and b are subscript and index of the corresponding generator in w respectively
 gap> G:=CycPresGroup(5,[[1,7],[2,6],[3,-7]]);
 <fp group on the generators [ f1, f2, f3, f4, f5 ]>
 
